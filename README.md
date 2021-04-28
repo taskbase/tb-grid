@@ -21,7 +21,8 @@ $breakpoints: (
 
 .tb-grid {
   display: grid;
-  grid-column-gap: 15px;
+  column-gap: 15px;
+  row-gap: 15px;
   grid-template-columns: repeat(12, 1fr);
   > * {
     grid-column-start: span 12;
@@ -39,8 +40,22 @@ $breakpoints: (
 ```
 
 ## Usage
-
-
+```
+<div class="tb-grid">
+  <div class="tb-sm-6">
+    Item 1
+  </div>
+  <div class="tb-sm-6">
+    Item 2
+  </div>
+  <div class="tb-sm-4 tb-lg-6">
+    Item 3
+  </div>
+  <div class="tb-sm-8 tb-lg-6">
+    Item 4
+  </div>
+</div>
+```
 
 ## Demo
 
