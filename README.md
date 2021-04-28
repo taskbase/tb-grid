@@ -1,5 +1,8 @@
 # tb-grid
 
+<img width="647" alt="tb-grid" src="https://user-images.githubusercontent.com/10352805/116449358-6205c380-a85a-11eb-97f0-c4921824f0f9.png">
+
+
 ## Why `tb-grid`?
 
 Bootstrap's grid system permeats the world. However, introducing an extra library into your project for something that could be achieved with a couple lines of code into your project without an extra dependency seems like overkill. And even though you can use bootstrap in a modular fashion, it will confuse your devs that you only use the grid system of bootstrap. Furthermore it has some design flaws:
