@@ -2,7 +2,7 @@
 
 ## Why `tb-grid`?
 
-Bootsraps grid system permeats the world. However, introducing an extra library into your project for something that could be introduced with a couple lines of code into your project without an extra dependency seems like overkill. And even though you can use bootstrap in a modular fashion, it will confuse your devs that you only use the grid system of bootstrap. Forthermore it has some design flaws:
+Bootstrap's grid system permeats the world. However, introducing an extra library into your project for something that could be introduced with a couple lines of code into your project without an extra dependency seems like overkill. And even though you can use bootstrap in a modular fashion, it will confuse your devs that you only use the grid system of bootstrap. Forthermore it has some design flaws:
 - Annoying layers of nesting: Why do you need to wrap the stuff in a container? I think that stems from legacy when there was no css grid.
 - no scoping: a prefix would have been much appreciated instead of just using `.container`...
 
