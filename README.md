@@ -61,5 +61,5 @@ $breakpoints: (
 ```
 
 ## Demo
-https://jsfiddle.net/bersling/af07cw94/58/
+https://jsfiddle.net/bersling/af07cw94/100/
 
