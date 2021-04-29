@@ -1,0 +1,123 @@
+.tb-grid {
+  display: grid;
+  column-gap: 15px;
+  row-gap: 15px;
+  grid-template-columns: repeat(12, 1fr);
+}
+.tb-grid > * {
+  grid-column-start: span 12;
+}
+@media (min-width: 600px) {
+  .tb-grid .tb-sm-1 {
+    grid-column-start: span 1;
+  }
+  .tb-grid .tb-sm-2 {
+    grid-column-start: span 2;
+  }
+  .tb-grid .tb-sm-3 {
+    grid-column-start: span 3;
+  }
+  .tb-grid .tb-sm-4 {
+    grid-column-start: span 4;
+  }
+  .tb-grid .tb-sm-5 {
+    grid-column-start: span 5;
+  }
+  .tb-grid .tb-sm-6 {
+    grid-column-start: span 6;
+  }
+  .tb-grid .tb-sm-7 {
+    grid-column-start: span 7;
+  }
+  .tb-grid .tb-sm-8 {
+    grid-column-start: span 8;
+  }
+  .tb-grid .tb-sm-9 {
+    grid-column-start: span 9;
+  }
+  .tb-grid .tb-sm-10 {
+    grid-column-start: span 10;
+  }
+  .tb-grid .tb-sm-11 {
+    grid-column-start: span 11;
+  }
+  .tb-grid .tb-sm-12 {
+    grid-column-start: span 12;
+  }
+}
+@media (min-width: 800px) {
+  .tb-grid .tb-md-1 {
+    grid-column-start: span 1;
+  }
+  .tb-grid .tb-md-2 {
+    grid-column-start: span 2;
+  }
+  .tb-grid .tb-md-3 {
+    grid-column-start: span 3;
+  }
+  .tb-grid .tb-md-4 {
+    grid-column-start: span 4;
+  }
+  .tb-grid .tb-md-5 {
+    grid-column-start: span 5;
+  }
+  .tb-grid .tb-md-6 {
+    grid-column-start: span 6;
+  }
+  .tb-grid .tb-md-7 {
+    grid-column-start: span 7;
+  }
+  .tb-grid .tb-md-8 {
+    grid-column-start: span 8;
+  }
+  .tb-grid .tb-md-9 {
+    grid-column-start: span 9;
+  }
+  .tb-grid .tb-md-10 {
+    grid-column-start: span 10;
+  }
+  .tb-grid .tb-md-11 {
+    grid-column-start: span 11;
+  }
+  .tb-grid .tb-md-12 {
+    grid-column-start: span 12;
+  }
+}
+@media (min-width: 1000px) {
+  .tb-grid .tb-lg-1 {
+    grid-column-start: span 1;
+  }
+  .tb-grid .tb-lg-2 {
+    grid-column-start: span 2;
+  }
+  .tb-grid .tb-lg-3 {
+    grid-column-start: span 3;
+  }
+  .tb-grid .tb-lg-4 {
+    grid-column-start: span 4;
+  }
+  .tb-grid .tb-lg-5 {
+    grid-column-start: span 5;
+  }
+  .tb-grid .tb-lg-6 {
+    grid-column-start: span 6;
+  }
+  .tb-grid .tb-lg-7 {
+    grid-column-start: span 7;
+  }
+  .tb-grid .tb-lg-8 {
+    grid-column-start: span 8;
+  }
+  .tb-grid .tb-lg-9 {
+    grid-column-start: span 9;
+  }
+  .tb-grid .tb-lg-10 {
+    grid-column-start: span 10;
+  }
+  .tb-grid .tb-lg-11 {
+    grid-column-start: span 11;
+  }
+  .tb-grid .tb-lg-12 {
+    grid-column-start: span 12;
+  }
+}
