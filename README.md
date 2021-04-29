@@ -61,7 +61,6 @@ $breakpoints: (
 ```
 
 ## Demo
-
-https://stackblitz.com/edit/tb-grid?file=src%2Fapp%2Ftb-grid.scss
+https://jsfiddle.net/bersling/af07cw94/14/
 
 
