@@ -1,6 +1,6 @@
 # tb-grid
 
-<img width="647" alt="tb-grid" src="https://user-images.githubusercontent.com/10352805/116449358-6205c380-a85a-11eb-97f0-c4921824f0f9.png">
+<img width="805" alt="Screenshot 2021-04-29 at 23 17 07 " src="https://user-images.githubusercontent.com/10352805/116619655-07936280-a941-11eb-921b-0da6cc9001af.png">
 
 
 ## Why `tb-grid`?
@@ -61,5 +61,5 @@ $breakpoints: (
 ```
 
 ## Demo
-https://jsfiddle.net/bersling/af07cw94/100/
+https://jsfiddle.net/bersling/af07cw94/275/
 
