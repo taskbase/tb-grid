@@ -3,13 +3,19 @@
 
 ## Why `tb-grid`?
 
-Bootstrap is well known for its grid system. However, introducing an extra library into your project for something that could be achieved with a couple lines of code seems like overkill. And even though you can use bootstrap in a modular fashion, it will confuse your devs that you only use the grid system of bootstrap. Furthermore it has some design flaws:
-- Annoying layers of nesting: Why do you need to wrap the stuff in a container? I think that stems from legacy when there was no css grid.
-- no scoping: a prefix would have been much appreciated instead of just using `.container`...
+Bootstrap's grid system is awesome. With very little code you can add responsiveness to your html in a declarative manner. The use of 12 columns make the grid system extremely versatile since you can divide it into nice fractions (12/2, 12/3, 12/4, 12/6 - they all produce integers!).
+
+However, there are also some thing bootstrap didn't get right.
+
+1. The classes aren't scoped or namespaced. And `.container` and `.row` aren't that exotic that there would be no collisions caused by unknowing devs
+2. It requires too much nesting: `.container` > `.row` > `.col`. It would be great if we could drop the `.container`.
+3. At 50kb minified (only the gridsystem!), it's not exactly small
+
+`tb-grid` addresses all those gripes with bootstrap.
 
 ## What is `tb-grid`?
 
-`tb-grid` is a reverse engineered bootstrap 12 column grid with **modern css**. This means it's utilizing features such as css variables and css grid. This means we can write the entire bootstrap column system in less than 100 lines of scss.
+`tb-grid` is a reverse engineered bootstrap 12 column grid built with **modern css**. This means it's utilizing features such as css grid and css variables. This means we can write the entire bootstrap column system in less than 100 lines of scss, which translate into roughly 300 lines of css - around 7kb!
 
 ## How can I install `tb-grid`?
 
@@ -17,9 +23,9 @@ Option 1 (SCSS): Copy the code from `tb-grid.scss` to your project.
 
 Option 2 (CSS): Copy the code from `tb-grid.css` to your project.
 
-Option 3 npm: `npm install tb-grid` and include the scss or css file from there.
+Option 3 npm (not available yet): `npm install tb-grid` and include the scss or css file from there.
 
-Option 4 (CSS): Include the css through a css import by pointing it to the github raw file. This won't be optimal as it's not minified and can't be bundled together with your code.
+Option 4 (CSS): Include the css through a css import by pointing it to the github raw file.
 
 ## How can I use `tb-grid`?
 
@@ -62,6 +68,17 @@ You can also override the gutters for each breakpoint by using CSS variables. Th
   --tb-grid-row-gap-xxl: 20px;
 }
 ```
+
+## What limitations does `tb-grid` have?
+
+- It doesn't support old browsers (IE): https://caniuse.com/?search=grid, https://caniuse.com/?search=css%20custom%20properties
+- If the `column-gap` is a fixed value it starts to overflow when the `tb-grid` parent reaches the size of `column_gap * 12`. For example, a `column_gap` of `30px` becomes problematic when the `tb-grid` parent is `360px`. That's why the defaults use `min(..., 8%)`, to squish the gutters when it gets too tight.
+
+## What's the status of the project?
+
+- Initial prototype is working well, see demo below
+- We are planning to replace Bootstrap with `ts-grid` in our own codebase
+- We would be thrilled to hear your opinions & suggestions on this small project! Why don't you just give it a spin and let us know what you think?
 
 ## Demo
 https://jsfiddle.net/bersling/af07cw94/275/
