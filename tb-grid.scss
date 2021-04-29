@@ -1,21 +1,44 @@
-$breakpoints: (
-  "sm": 600px,
-  "md": 800px,
-  "lg": 1000px
+:root {
+  --tb-grid-column-gap-xs: min(10px, 8%);
+  --tb-grid-row-gap-xs: 10px;
+  --tb-grid-column-gap-sm: min(15px, 8%);
+  --tb-grid-row-gap-sm: 15px;
+  --tb-grid-column-gap-md: min(15px, 8%);
+  --tb-grid-row-gap-md: 15px;
+  --tb-grid-column-gap-lg: min(20px, 8%);
+  --tb-grid-row-gap-lg: 20px;
+  --tb-grid-column-gap-xl: min(20px, 8%);
+  --tb-grid-row-gap-xl: 20px;
+  --tb-grid-column-gap-xxl: min(20px, 8%);
+  --tb-grid-row-gap-xxl: 20px;
+}
+
+$tb-grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
 );
 
 .tb-grid {
   display: grid;
-  column-gap: 15px;
-  row-gap: 15px;
+
   grid-template-columns: repeat(12, 1fr);
   > * {
     grid-column-start: span 12;
   }
-  @each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @each $breakpoint-name, $breakpoint-value in $tb-grid-breakpoints {    
     @media (min-width: #{$breakpoint-value}) {
+      row-gap: var(--tb-grid-row-gap-#{$breakpoint-name});
+      column-gap: var(--tb-grid-column-gap-#{$breakpoint-name});
+      &.tb-grid-no-gutters {
+        row-gap: normal;
+        column-gap: normal;
+      }
       @for $i from 1 through 12 {
-        .tb-#{$breakpoint-name}-#{$i} {
+        .tb-grid-#{$breakpoint-name}-#{$i} {
           grid-column-start: span #{$i};
         }
       }
