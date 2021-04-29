@@ -2,6 +2,8 @@
 
 [![][license img]][license]
 
+## Demo
+https://jsfiddle.net/bersling/af07cw94/275/
 
 ## Why `tb-grid`?
 
@@ -81,9 +83,6 @@ You can also override the gutters for each breakpoint by using CSS variables. Th
 - Initial prototype is working well, see demo below
 - We are planning to replace Bootstrap with `ts-grid` in our own codebase
 - We would be thrilled to hear your opinions & suggestions on this small project! Why don't you just give it a spin and let us know what you think?
-
-## Demo
-https://jsfiddle.net/bersling/af07cw94/275/
 
 [license]:LICENSE
 [license img]:https://img.shields.io/badge/license-MIT-blue.svg
