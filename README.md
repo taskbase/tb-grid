@@ -11,7 +11,7 @@ Bootstrap's grid system is awesome. With very little code you can add responsive
 
 However, there are also some thing bootstrap didn't get right.
 
-1. The classes aren't scoped or namespaced. And `.container` and `.row` aren't that exotic that there would be no collisions caused by unknowing devs
+1. The classes aren't scoped or namespaced. And `.container` and `.row` aren't that exotic that there would be no accidental collisions.
 2. It requires too much nesting: `.container` > `.row` > `.col`. It would be great if we could drop the `.container`.
 3. At 50kb minified (only the gridsystem!), it's not exactly small
 
