@@ -1,0 +1,24 @@
+$breakpoints: (
+  "sm": 600px,
+  "md": 800px,
+  "lg": 1000px
+);
+
+.tb-grid {
+  display: grid;
+  column-gap: 15px;
+  row-gap: 15px;
+  grid-template-columns: repeat(12, 1fr);
+  > * {
+    grid-column-start: span 12;
+  }
+  @each $breakpoint-name, $breakpoint-value in $breakpoints {
+    @media (min-width: #{$breakpoint-value}) {
+      @for $i from 1 through 12 {
+        .tb-#{$breakpoint-name}-#{$i} {
+          grid-column-start: span #{$i};
+        }
+      }
+    }
+  }
+}
