@@ -62,6 +62,6 @@ $breakpoints: (
 
 ## Demo
 
-https://stackblitz.com/edit/reverse-engineering-bootstrap-with-css-grid?file=src%2Fapp%2Fapp.component.scss
+https://stackblitz.com/edit/tb-grid?file=src/app/app.component.scss
 
 
