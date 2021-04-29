@@ -14,8 +14,11 @@ Bootstrap is well known for its grid system. However, introducing an extra libra
 ## How can I install `tb-grid`?
 
 Option 1 (SCSS): Copy the code from `tb-grid.scss` to your project.
+
 Option 2 (CSS): Copy the code from `tb-grid.css` to your project.
+
 Option 3 npm: `npm install tb-grid` and include the scss or css file from there.
+
 Option 4 (CSS): Include the css through a css import by pointing it to the github raw file. This won't be optimal as it's not minified and can't be bundled together with your code.
 
 ## How can I use `tb-grid`?
