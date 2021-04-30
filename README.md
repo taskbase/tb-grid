@@ -3,7 +3,8 @@
 [![][license img]][license]
 
 ## Demo
-https://jsfiddle.net/bersling/af07cw94/275/
+<a href="https://jsfiddle.net/bersling/af07cw94/279/" target="_blank">Jsfiddle</a>
+
 
 ## Why `tb-grid`?
 
