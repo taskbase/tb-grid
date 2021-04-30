@@ -75,7 +75,7 @@ You can also override the gutters for each breakpoint by using CSS variables. Th
 
 ## What limitations does `tb-grid` have?
 
-- It doesn't support old browsers (IE): https://caniuse.com/?search=grid, https://caniuse.com/?search=css%20custom%20properties
+- It doesn't support old browsers (IE): https://caniuse.com/?search=grid, https://caniuse.com/?search=css%20custom%20properties . 95% of people are using browsers that support CSS grid and CSS custom properties (variables) as of April 2021. It's up to you to decide whether this is sufficient for your project.
 - If the `column-gap` is a fixed value it starts to overflow when the `tb-grid` parent reaches the size of `column_gap * 12`. For example, a `column_gap` of `30px` becomes problematic when the `tb-grid` parent is `360px`. That's why the defaults use `min(..., 8%)`, to squish the gutters when it gets too tight.
 
 ## What's the status of the project?
