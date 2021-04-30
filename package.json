@@ -1,0 +1,38 @@
+{
+  "name": "tb-grid",
+  "private": true,
+  "version": "0.0.1",
+  "description": "tb-grid is a super simple and lightweight 12 column responsive grid system utilizing css grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taskbase/tb-grid.git"
+  },
+  "keywords": [
+    "css",
+    "bootstrap",
+    "lightweight",
+    "alternative",
+    "awesome",
+    "grid",
+    "skeleton",
+    "simple",
+    "responsive",
+    "foundation",
+    "scss",
+    "grid-layout",
+    "grid-system",
+    "minimalistic",
+    "cssgrid",
+    "12column"
+  ],
+  "author": "Daniel Niederberger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taskbase/tb-grid/issues"
+  },
+  "homepage": "https://github.com/taskbase/tb-grid#readme"
+}
