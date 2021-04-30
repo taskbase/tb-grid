@@ -85,7 +85,7 @@ You can also override the gutters for each breakpoint by using CSS variables. Th
 ## What's the status of the project?
 
 - Initial prototype is working well, see demo below
-- We are planning to replace Bootstrap with `ts-grid` in our own codebase
+- We are planning to replace Bootstrap with `tb-grid` in our own codebase
 - We would be thrilled to hear your opinions & suggestions on this small project! Why don't you just give it a spin and let us know what you think?
 
 [license]:LICENSE
