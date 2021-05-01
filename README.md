@@ -1,9 +1,9 @@
 # tb-grid
 
 [![][license img]][license]
+[![][npm version]][npmversion]
 
 ![tb-grid-2](https://user-images.githubusercontent.com/10352805/116756778-fc0d6d80-aa0c-11eb-840a-0bbb3a92ca9c.gif)
-
 
 ## Demo
 https://jsfiddle.net/bersling/af07cw94/279/
@@ -90,4 +90,5 @@ You can also override the gutters for each breakpoint by using CSS variables. Th
 
 [license]:LICENSE
 [license img]:https://img.shields.io/badge/license-MIT-blue.svg
-
+[npmversion]:NPMVERSION
+[npm version]:https://img.shields.io/npm/v/tb-grid?color=%238B00F7
