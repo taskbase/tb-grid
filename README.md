@@ -1,4 +1,4 @@
-# tb-grid 🏁
+# tb-grid
 
 [![][license img]][license]
 [![][npm version]][npmversion]
