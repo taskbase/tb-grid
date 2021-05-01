@@ -1,4 +1,4 @@
-# tb-grid
+# tb-grid 🏁
 
 [![][license img]][license]
 [![][npm version]][npmversion]
@@ -9,7 +9,7 @@
 https://jsfiddle.net/bersling/af07cw94/279/
 
 
-## Why `tb-grid`?
+## Why `tb-grid`? 🤔
 
 Bootstrap's grid system is awesome. With very little code you can add responsiveness to your html in a declarative manner. The use of 12 columns make the grid system extremely versatile since you can divide it into nice fractions (12/2, 12/3, 12/4, 12/6 - they all produce integers!).
 
@@ -21,21 +21,27 @@ However, there are also some thing bootstrap didn't get right.
 
 `tb-grid` addresses all those gripes with bootstrap.
 
-## What is `tb-grid`?
+## What is `tb-grid`? 🤯
 
 `tb-grid` is a reverse engineered bootstrap 12 column grid built with **modern css**. This means it's utilizing features such as css grid and css variables. Like that we can reverse enginineer bootstrap's column system in less than 100 lines of scss, which translates into roughly 300 lines of css - around 7kb!
 
-## How can I install `tb-grid`?
+## How can I install `tb-grid`? 🚀
 
-Option 1 (SCSS): Copy the code from `tb-grid.scss` to your project.
+There are a couple of ways how you can get `tb-grid`, choose what suits you best.
 
-Option 2 (CSS): Copy the code from `tb-grid.css` to your project.
+### Option 1: SCSS
+Copy the code from `tb-grid.scss` to your project.
 
-Option 3 npm (not available yet): `npm install tb-grid` and include the scss or css file from there.
+### Option 2: CSS
+Copy the code from `tb-grid.css` to your project.
 
-Option 4 (CSS): Include the css through a css import by pointing it to the github raw file.
+### Option 3: npm
+`npm install tb-grid` and include the scss or css file from there. (`node_modules/tb-grid/tb-grid.scss` or `node_modules/tb-grid/tb-grid.css`)
 
-## How can I use `tb-grid`?
+### Option 4: npm CDN (unpkg)
+You could use unkpg to get the file: `<link rel="stylesheet" href="https://unpkg.com/tb-grid@0.0.1/tb-grid.css">`
+
+## How can I use `tb-grid`? 🎨
 
 It is pretty similar to bootstrap, with the exception that it's simpler yet with better scoping:
 
