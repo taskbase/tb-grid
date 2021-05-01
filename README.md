@@ -9,7 +9,7 @@
 https://jsfiddle.net/bersling/af07cw94/279/
 
 
-## Why `tb-grid`? 🤔
+## 🤔 Why `tb-grid`?
 
 Bootstrap's grid system is awesome. With very little code you can add responsiveness to your html in a declarative manner. The use of 12 columns make the grid system extremely versatile since you can divide it into nice fractions (12/2, 12/3, 12/4, 12/6 - they all produce integers!).
 
@@ -21,11 +21,11 @@ However, there are also some thing bootstrap didn't get right.
 
 `tb-grid` addresses all those gripes with bootstrap.
 
-## What is `tb-grid`? 🤯
+## 🤯 What is `tb-grid`?
 
 `tb-grid` is a reverse engineered bootstrap 12 column grid built with **modern css**. This means it's utilizing features such as css grid and css variables. Like that we can reverse enginineer bootstrap's column system in less than 100 lines of scss, which translates into roughly 300 lines of css - around 7kb!
 
-## How can I install `tb-grid`? 🚀
+## 🚀 How can I install `tb-grid`?
 
 There are a couple of ways how you can get `tb-grid`, choose what suits you best.
 
@@ -41,7 +41,7 @@ Copy the code from `tb-grid.css` to your project.
 ### Option 4: npm CDN (unpkg)
 You could use unkpg to get the file: `<link rel="stylesheet" href="https://unpkg.com/tb-grid@0.0.1/tb-grid.css">`
 
-## How can I use `tb-grid`? 🎨
+## 🎨 How can I use `tb-grid`?
 
 It is pretty similar to bootstrap, with the exception that it's simpler yet with better scoping:
 
@@ -83,12 +83,12 @@ You can also override the gutters for each breakpoint by using CSS variables. Th
 }
 ```
 
-## What limitations does `tb-grid` have? ✋
+## ✋ What limitations does `tb-grid` have?
 
 - It doesn't support old browsers (IE): https://caniuse.com/?search=grid, https://caniuse.com/?search=css%20custom%20properties . 95% of people are using browsers that support CSS grid and CSS custom properties (variables) as of April 2021. It's up to you to decide whether this is sufficient for your project.
 - If the `column-gap` is a fixed value it starts to overflow when the `tb-grid` parent reaches the size of `column_gap * 12`. For example, a `column_gap` of `30px` becomes problematic when the `tb-grid` parent is `360px`. That's why the defaults use `min(..., 8%)`, to squish the gutters when it gets too tight.
 
-## What's the status of the project? 💯
+## 💯 What's the status of the project?
 
 - Initial prototype is working well, see demo below
 - We are planning to replace Bootstrap with `tb-grid` in our own codebase
