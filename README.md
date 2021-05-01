@@ -5,9 +5,9 @@
 
 ![tb-grid-2](https://user-images.githubusercontent.com/10352805/116756778-fc0d6d80-aa0c-11eb-840a-0bbb3a92ca9c.gif)
 
-## Demo
-https://jsfiddle.net/bersling/af07cw94/280/
-
+## Demos
+- Main Demo: https://jsfiddle.net/bersling/af07cw94/280/
+- Demo with Cards: https://jsfiddle.net/bersling/n2tqd85h/35/
 
 ## 🤔 Why `tb-grid`?
 
