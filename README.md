@@ -7,7 +7,7 @@
 
 ## 👉 Demos
 - Main Demo: https://jsfiddle.net/bersling/af07cw94/324/
-- Demo with Cards: https://jsfiddle.net/bersling/n2tqd85h/35/
+- Demo with Cars & Cards: https://jsfiddle.net/bersling/n2tqd85h/37/
 - Bootstrap example, where grid is replaced with `tb-grid`: https://codepen.io/bersling/pen/RwKzdgV (Original: https://codepen.io/WeeHorse/pen/PQydzW)
 
 ## 🤔 Why `tb-grid`?
