@@ -1,34 +1,211 @@
-:root {
-  --tb-grid-column-gap-xs: min(10px, 8%);
-  --tb-grid-row-gap-xs: 10px;
-  --tb-grid-column-gap-sm: min(15px, 8%);
-  --tb-grid-row-gap-sm: 15px;
-  --tb-grid-column-gap-md: min(15px, 8%);
-  --tb-grid-row-gap-md: 15px;
-  --tb-grid-column-gap-lg: min(20px, 8%);
-  --tb-grid-row-gap-lg: 20px;
-  --tb-grid-column-gap-xl: min(20px, 8%);
-  --tb-grid-row-gap-xl: 20px;
-  --tb-grid-column-gap-xxl: min(20px, 8%);
-  --tb-grid-row-gap-xxl: 20px;
-}
-
 .tb-grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+}
+.tb-grid.tb-grid-gap-1 {
+  row-gap: 1px;
+  column-gap: min(1px, 8%);
+}
+.tb-grid.tb-grid-gap-2 {
+  row-gap: 2px;
+  column-gap: min(2px, 8%);
+}
+.tb-grid.tb-grid-gap-3 {
+  row-gap: 3px;
+  column-gap: min(3px, 8%);
+}
+.tb-grid.tb-grid-gap-4 {
+  row-gap: 4px;
+  column-gap: min(4px, 8%);
+}
+.tb-grid.tb-grid-gap-5 {
+  row-gap: 5px;
+  column-gap: min(5px, 8%);
+}
+.tb-grid.tb-grid-gap-6 {
+  row-gap: 6px;
+  column-gap: min(6px, 8%);
+}
+.tb-grid.tb-grid-gap-7 {
+  row-gap: 7px;
+  column-gap: min(7px, 8%);
+}
+.tb-grid.tb-grid-gap-8 {
+  row-gap: 8px;
+  column-gap: min(8px, 8%);
+}
+.tb-grid.tb-grid-gap-9 {
+  row-gap: 9px;
+  column-gap: min(9px, 8%);
+}
+.tb-grid.tb-grid-gap-10 {
+  row-gap: 10px;
+  column-gap: min(10px, 8%);
+}
+.tb-grid.tb-grid-gap-11 {
+  row-gap: 11px;
+  column-gap: min(11px, 8%);
+}
+.tb-grid.tb-grid-gap-12 {
+  row-gap: 12px;
+  column-gap: min(12px, 8%);
+}
+.tb-grid.tb-grid-gap-13 {
+  row-gap: 13px;
+  column-gap: min(13px, 8%);
+}
+.tb-grid.tb-grid-gap-14 {
+  row-gap: 14px;
+  column-gap: min(14px, 8%);
+}
+.tb-grid.tb-grid-gap-15 {
+  row-gap: 15px;
+  column-gap: min(15px, 8%);
+}
+.tb-grid.tb-grid-gap-16 {
+  row-gap: 16px;
+  column-gap: min(16px, 8%);
+}
+.tb-grid.tb-grid-gap-17 {
+  row-gap: 17px;
+  column-gap: min(17px, 8%);
+}
+.tb-grid.tb-grid-gap-18 {
+  row-gap: 18px;
+  column-gap: min(18px, 8%);
+}
+.tb-grid.tb-grid-gap-19 {
+  row-gap: 19px;
+  column-gap: min(19px, 8%);
+}
+.tb-grid.tb-grid-gap-20 {
+  row-gap: 20px;
+  column-gap: min(20px, 8%);
+}
+.tb-grid.tb-grid-gap-21 {
+  row-gap: 21px;
+  column-gap: min(21px, 8%);
+}
+.tb-grid.tb-grid-gap-22 {
+  row-gap: 22px;
+  column-gap: min(22px, 8%);
+}
+.tb-grid.tb-grid-gap-23 {
+  row-gap: 23px;
+  column-gap: min(23px, 8%);
+}
+.tb-grid.tb-grid-gap-24 {
+  row-gap: 24px;
+  column-gap: min(24px, 8%);
+}
+.tb-grid.tb-grid-gap-25 {
+  row-gap: 25px;
+  column-gap: min(25px, 8%);
+}
+.tb-grid.tb-grid-gap-26 {
+  row-gap: 26px;
+  column-gap: min(26px, 8%);
+}
+.tb-grid.tb-grid-gap-27 {
+  row-gap: 27px;
+  column-gap: min(27px, 8%);
+}
+.tb-grid.tb-grid-gap-28 {
+  row-gap: 28px;
+  column-gap: min(28px, 8%);
+}
+.tb-grid.tb-grid-gap-29 {
+  row-gap: 29px;
+  column-gap: min(29px, 8%);
+}
+.tb-grid.tb-grid-gap-30 {
+  row-gap: 30px;
+  column-gap: min(30px, 8%);
+}
+.tb-grid.tb-grid-gap-31 {
+  row-gap: 31px;
+  column-gap: min(31px, 8%);
+}
+.tb-grid.tb-grid-gap-32 {
+  row-gap: 32px;
+  column-gap: min(32px, 8%);
+}
+.tb-grid.tb-grid-gap-33 {
+  row-gap: 33px;
+  column-gap: min(33px, 8%);
+}
+.tb-grid.tb-grid-gap-34 {
+  row-gap: 34px;
+  column-gap: min(34px, 8%);
+}
+.tb-grid.tb-grid-gap-35 {
+  row-gap: 35px;
+  column-gap: min(35px, 8%);
+}
+.tb-grid.tb-grid-gap-36 {
+  row-gap: 36px;
+  column-gap: min(36px, 8%);
+}
+.tb-grid.tb-grid-gap-37 {
+  row-gap: 37px;
+  column-gap: min(37px, 8%);
+}
+.tb-grid.tb-grid-gap-38 {
+  row-gap: 38px;
+  column-gap: min(38px, 8%);
+}
+.tb-grid.tb-grid-gap-39 {
+  row-gap: 39px;
+  column-gap: min(39px, 8%);
+}
+.tb-grid.tb-grid-gap-40 {
+  row-gap: 40px;
+  column-gap: min(40px, 8%);
+}
+.tb-grid.tb-grid-gap-41 {
+  row-gap: 41px;
+  column-gap: min(41px, 8%);
+}
+.tb-grid.tb-grid-gap-42 {
+  row-gap: 42px;
+  column-gap: min(42px, 8%);
+}
+.tb-grid.tb-grid-gap-43 {
+  row-gap: 43px;
+  column-gap: min(43px, 8%);
+}
+.tb-grid.tb-grid-gap-44 {
+  row-gap: 44px;
+  column-gap: min(44px, 8%);
+}
+.tb-grid.tb-grid-gap-45 {
+  row-gap: 45px;
+  column-gap: min(45px, 8%);
+}
+.tb-grid.tb-grid-gap-46 {
+  row-gap: 46px;
+  column-gap: min(46px, 8%);
+}
+.tb-grid.tb-grid-gap-47 {
+  row-gap: 47px;
+  column-gap: min(47px, 8%);
+}
+.tb-grid.tb-grid-gap-48 {
+  row-gap: 48px;
+  column-gap: min(48px, 8%);
+}
+.tb-grid.tb-grid-gap-49 {
+  row-gap: 49px;
+  column-gap: min(49px, 8%);
+}
+.tb-grid.tb-grid-gap-50 {
+  row-gap: 50px;
+  column-gap: min(50px, 8%);
 }
 .tb-grid > * {
   grid-column-start: span 12;
 }
 @media (min-width: 0) {
-  .tb-grid {
-    row-gap: var(--tb-grid-row-gap-xs);
-    column-gap: var(--tb-grid-column-gap-xs);
-  }
-  .tb-grid.tb-grid-no-gutters {
-    row-gap: normal;
-    column-gap: normal;
-  }
   .tb-grid .tb-grid-xs-1 {
     grid-column-start: span 1;
   }
@@ -67,14 +244,6 @@
   }
 }
 @media (min-width: 576px) {
-  .tb-grid {
-    row-gap: var(--tb-grid-row-gap-sm);
-    column-gap: var(--tb-grid-column-gap-sm);
-  }
-  .tb-grid.tb-grid-no-gutters {
-    row-gap: normal;
-    column-gap: normal;
-  }
   .tb-grid .tb-grid-sm-1 {
     grid-column-start: span 1;
   }
@@ -113,14 +282,6 @@
   }
 }
 @media (min-width: 768px) {
-  .tb-grid {
-    row-gap: var(--tb-grid-row-gap-md);
-    column-gap: var(--tb-grid-column-gap-md);
-  }
-  .tb-grid.tb-grid-no-gutters {
-    row-gap: normal;
-    column-gap: normal;
-  }
   .tb-grid .tb-grid-md-1 {
     grid-column-start: span 1;
   }
@@ -159,14 +320,6 @@
   }
 }
 @media (min-width: 992px) {
-  .tb-grid {
-    row-gap: var(--tb-grid-row-gap-lg);
-    column-gap: var(--tb-grid-column-gap-lg);
-  }
-  .tb-grid.tb-grid-no-gutters {
-    row-gap: normal;
-    column-gap: normal;
-  }
   .tb-grid .tb-grid-lg-1 {
     grid-column-start: span 1;
   }
@@ -205,14 +358,6 @@
   }
 }
 @media (min-width: 1200px) {
-  .tb-grid {
-    row-gap: var(--tb-grid-row-gap-xl);
-    column-gap: var(--tb-grid-column-gap-xl);
-  }
-  .tb-grid.tb-grid-no-gutters {
-    row-gap: normal;
-    column-gap: normal;
-  }
   .tb-grid .tb-grid-xl-1 {
     grid-column-start: span 1;
   }
@@ -251,14 +396,6 @@
   }
 }
 @media (min-width: 1400px) {
-  .tb-grid {
-    row-gap: var(--tb-grid-row-gap-xxl);
-    column-gap: var(--tb-grid-column-gap-xxl);
-  }
-  .tb-grid.tb-grid-no-gutters {
-    row-gap: normal;
-    column-gap: normal;
-  }
   .tb-grid .tb-grid-xxl-1 {
     grid-column-start: span 1;
   }
