@@ -1,9 +1,16 @@
 {
   "name": "tb-grid",
-  "private": true,
   "version": "0.0.1",
   "description": "tb-grid is a super simple and lightweight 12 column responsive grid system utilizing css grid.",
   "main": "index.js",
+  "files": [
+    "LICENSE",
+    "package.json",
+    "package-lock.json",
+    "README.md",
+    "tb-grid.scss",
+    "tb-grid.css"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
