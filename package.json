@@ -1,6 +1,6 @@
 {
   "name": "tb-grid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tb-grid is a super simple and lightweight 12 column responsive grid system utilizing css grid.",
   "main": "index.js",
   "files": [
