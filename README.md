@@ -41,7 +41,7 @@ Copy the code from `tb-grid.css` to your project.
 `npm install tb-grid` and include the scss or css file from there. (`node_modules/tb-grid/tb-grid.scss` or `node_modules/tb-grid/tb-grid.css`)
 
 ### Option 4: npm CDN (unpkg)
-You could use unkpg to get the file: `<link rel="stylesheet" href="https://unpkg.com/tb-grid@0.0.1/tb-grid.css">`
+You could use unkpg to get the file: `<link rel="stylesheet" href="https://unpkg.com/tb-grid@0.0.2/tb-grid.css">`
 
 ## 🎨 How can I use `tb-grid`?
 
