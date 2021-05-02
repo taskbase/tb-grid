@@ -73,6 +73,18 @@ No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only defau
 
 **Note:** When the `tb-grid` parent is smaller than `column-gap * 12`, the `column-gap` will be squished together to prevent overflows. For example, a `column-gap` of `30px` becomes problematic when the `tb-grid` parent is `360px`. That's why the `tb-grid-gap-<px>` classes use `column-gap: min(<px>, 8%)`, to squish the column gutters when it gets too tight.
 
+The breakpoints are the same ones as in bootstrap:
+```
+$tb-grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+```
+
 ## ✋ What limitations does `tb-grid` have?
 
 - It doesn't support old browsers (IE): https://caniuse.com/?search=grid . 95% of people are using browsers that support CSS grid as of April 2021. It's up to you to decide whether this is sufficient for your project.
