@@ -69,12 +69,13 @@ It is pretty similar to bootstrap, with the exception that it's simpler yet with
 </div>
 ```
 
-No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only default that is not arbitrary, and it's really easy to add a gap. We currently only support symmetrical gaps up `50px` to keep the bundle size small, but you can easily add your own classes to extend the functionality. For example `.custom-gap-100 {row-gap: 100px; column-gap: 20px}`.
+No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only default that is not arbitrary, and it's really easy to add a gap. We currently only support symmetrical gaps up `50px` to keep the bundle size small, but you can easily add your own classes to extend the functionality. For example `.custom-gap-100 {row-gap: 60px; column-gap: min(20px, 8%)}`.
+
+Note: When the `tb-grid` parent is smaller than `gap * 12`, the `column-gap` will be squished together to prevent overflows. For example, a `column-gap` of `30px` becomes problematic when the `tb-grid` parent is `360px`. That's why the `tb-grid-gap-<px>` classes use `column-gap: min(<px>, 8%)`, to squish the column gutters when it gets too tight.
 
 ## ✋ What limitations does `tb-grid` have?
 
 - It doesn't support old browsers (IE): https://caniuse.com/?search=grid . 95% of people are using browsers that support CSS grid as of April 2021. It's up to you to decide whether this is sufficient for your project.
-- If the `column-gap` is a fixed value it starts to overflow when the `tb-grid` parent reaches the size of `column_gap * 12`. For example, a `column_gap` of `30px` becomes problematic when the `tb-grid` parent is `360px`. That's why the defaults use `min(..., 8%)`, to squish the gutters when it gets too tight.
 
 ## 💯 What's the status of the project?
 
