@@ -87,7 +87,7 @@ No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only defau
 
 - The project is to be considered experimental and non-battle tested at this point
 - The "API" (class names, css property names) are not to be considered stabled. Rather it is a working draft, and we'd love to receive feedback on it. This is also reflected in the npm version below `1.0.0`.
-- Initial prototype is working well, see demo
+- Initial prototype is working well, see demos / playground above.
 - We are planning to replace Bootstrap with `tb-grid` in our own codebase
 - We would be thrilled to hear your opinions & suggestions on `tb-grid`! Why don't you just give it a spin and let us know what you think?
 
