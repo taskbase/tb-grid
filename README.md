@@ -16,16 +16,16 @@ Bootstrap's grid system is awesome. With very little code you can add responsive
 
 However, there are also some things bootstrap didn't get right.
 
-1. The classes aren't scoped or namespaced. And `.container` and `.row` aren't that exotic that there would be no accidental collisions.
+1. The classes aren't scoped or namespaced. Furthermore `.container` and `.row` aren't that exotic that there would be no accidental collisions.
 2. It requires too much nesting: `.container` > `.row` > `.col`. It would be great if we could drop the `.container`.
-3. At 50kb minified (only the gridsystem!), it's not exactly small
+3. At 50kb minified (only the grid system!), it's not exactly small
 4. The gutters / gaps need hacking with additional padding or `overflow: hidden`.
 
 `tb-grid` addresses all those gripes with bootstrap and frankly with all other grid systems we know (foundation, skeleton, ...).
 
 ## 🤯 What is `tb-grid`?
 
-`tb-grid` is a reverse engineered bootstrap 12 column grid built with **modern css**. This means it's utilizing features such as css grid. Like that we can reverse enginineer bootstrap's column system in less than 100 lines of scss, which translates into roughly 300 lines of css - around 7kb!
+`tb-grid` is a reverse engineered bootstrap 12 column grid built with **modern css**. This means it's utilizing features such as css grid. Like that we can reverse engineer bootstrap's column system in less than 100 lines of scss, which translates into roughly 300 lines of css - around 7kb!
 
 ## 🚀 How can I install `tb-grid`?
 
@@ -64,7 +64,7 @@ It is pretty similar to bootstrap, with the exception that it's simpler yet with
 </div>
 ```
 
-No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only default that is not arbitrary and it's really easy to add a gap. Supported up to `50px`. We currently only support symmetrical gaps for simplicity, but you can easily add your own css to change that, for example: `.tb-grid.custom-gap-y-10 {row-gap: 5px;}`
+No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only default that is not arbitrary, and it's really easy to add a gap. Supported up to `50px`. We currently only support symmetrical gaps for simplicity, but you can easily add your own css to change that, for example: `.tb-grid.custom-gap-y-10 {row-gap: 5px;}`
 
 
 ## ✋ What limitations does `tb-grid` have?
@@ -75,7 +75,7 @@ No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only defau
 ## 💯 What's the status of the project?
 
 - The project is to be considered experimental and non-battle tested at this point
-- The "API" (class names, css property names) are not to be considered stabled. Rather it is a working draft and we'd love to receive feedback on it. This is also reflected in the npm version below `1.0.0`.
+- The "API" (class names, css property names) are not to be considered stabled. Rather it is a working draft, and we'd love to receive feedback on it. This is also reflected in the npm version below `1.0.0`.
 - Initial prototype is working well, see demo
 - We are planning to replace Bootstrap with `tb-grid` in our own codebase
 - We would be thrilled to hear your opinions & suggestions on `tb-grid`! Why don't you just give it a spin and let us know what you think?
