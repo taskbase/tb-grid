@@ -14,7 +14,7 @@
 
 Bootstrap's grid system is awesome. With very little code you can add responsiveness to your html in a declarative manner. The use of 12 columns make the grid system extremely versatile since you can divide it into nice fractions (12/2, 12/3, 12/4, 12/6 - they all produce integers!).
 
-However, there are also some thing bootstrap didn't get right.
+However, there are also some things bootstrap didn't get right.
 
 1. The classes aren't scoped or namespaced. And `.container` and `.row` aren't that exotic that there would be no accidental collisions.
 2. It requires too much nesting: `.container` > `.row` > `.col`. It would be great if we could drop the `.container`.
