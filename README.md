@@ -24,7 +24,7 @@ Bootstrap's grid system is awesome. With very little code you can add responsive
 However, there are also some things bootstrap didn't get right.
 
 1. It requires too much nesting: `.container` > `.row` > `.col`. It would be great if we could drop the `.container`.
-2. Being able to change guttes (aka. gaps) on a case-by-case basis is important, but it's a bit cumbersome in bootstrap.
+2. Being able to change gutters (aka. gaps) on a case-by-case basis is important, but it's a bit cumbersome in bootstrap.
 3. The classes aren't scoped or namespaced. Furthermore `.container` and `.row` aren't that exotic that there would be no accidental collisions.
 4. While at 50kb minified the grid system isn't huge, it's not exactly tiny either.
 
