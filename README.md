@@ -53,7 +53,7 @@ You could use unkpg to get the file: `<link rel="stylesheet" href="https://unpkg
 It is pretty similar to bootstrap, with the exception that it's simpler yet with better scoping:
 
 - Add the class `.tb-grid` to an HTML element.
-- Add the classes of the form `.tb-grid-<breakpoint>-<cols>`, like `.tb-grid-sm-6` or `.tb-grid-md-8` to the direct children. The breakpoints are the same ones as in bootstrap (`sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px`). The column argument can be between `1` and `12`.
+- Add classes of the form `.tb-grid-<breakpoint>-<cols>`, like `.tb-grid-sm-6` or `.tb-grid-md-8` to the direct children. The breakpoints are the same ones as in bootstrap (`sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px`). The column argument can be between `1` and `12`.
 - Add `.tb-grid-gap-<gap size>` to define the `gap size`. Here, `<gap-size>` can be a value between (and including) `1` and `50`.
 
 Complete example:
