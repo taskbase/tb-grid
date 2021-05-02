@@ -1,6 +1,6 @@
 # tb-grid
 
-_Lightweight (<1kb gzipped) yet powerful 12 column grid system, built with css grid._
+_Lightweight (<1kb gzipped) 12 column grid system, built with css grid._
 
 [![][license img]][license]
 [![][npm version]][npmversion]
