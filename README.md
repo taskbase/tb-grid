@@ -5,10 +5,15 @@
 
 ![tb-grid-2](https://user-images.githubusercontent.com/10352805/116756778-fc0d6d80-aa0c-11eb-840a-0bbb3a92ca9c.gif)
 
-## 👉 Demos
+## 👉 Demos & Playground
+
+Have a look at those examples:
+
 - Main Demo: https://jsfiddle.net/bersling/af07cw94/324/
 - Demo with Cars & Cards: https://jsfiddle.net/bersling/n2tqd85h/37/
 - Bootstrap example, where grid is replaced with `tb-grid`: https://codepen.io/bersling/pen/RwKzdgV (Original: https://codepen.io/WeeHorse/pen/PQydzW)
+
+Simply fork the demos if you want to play around with `tb-grid`.
 
 ## 🤔 Why `tb-grid`?
 
