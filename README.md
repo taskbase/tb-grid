@@ -50,7 +50,13 @@ You could use unkpg to get the file: `<link rel="stylesheet" href="https://unpkg
 
 ## 🎨 How can I use `tb-grid`?
 
-It is pretty similar to bootstrap, with the exception that it's simpler yet with better scoping and making gap control a first class citizen:
+It is pretty similar to bootstrap, with the exception that it's simpler yet with better scoping:
+
+- Add the class `.tb-grid` to an HTML element.
+- Add the classes of the form `.tb-grid-<breakpoint>-<cols>`, like `.tb-grid-sm-6` or `.tb-grid-md-8` to the direct children. The breakpoints are the same ones as in bootstrap (`sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px`). The column argument can be between `1` and `12`.
+- Add `.tb-grid-gap-<gap size>` to define the `gap size`. Here, `<gap-size>` can be a value between (and including) `1` and `50`.
+
+Complete example:
 
 ```
 <div class="tb-grid tb-grid-gap-10">
@@ -72,18 +78,6 @@ It is pretty similar to bootstrap, with the exception that it's simpler yet with
 No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only default that is not arbitrary, and it's really easy to add a gap. We currently only support symmetrical gaps up `50px` to keep the bundle size small, but you can easily add your own classes to extend the functionality. For example `.custom-gap-100 {row-gap: 60px; column-gap: min(20px, 8%)}`.
 
 **Note:** When the `tb-grid` parent is smaller than `column-gap * 12`, the `column-gap` will be squished together to prevent overflows. For example, a `column-gap` of `30px` becomes problematic when the `tb-grid` parent is `360px`. That's why the `tb-grid-gap-<px>` classes use `column-gap: min(<px>, 8%)`, to squish the column gutters when it gets too tight.
-
-The breakpoints are the same ones as in bootstrap:
-```
-$tb-grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
-```
 
 ## ✋ What limitations does `tb-grid` have?
 
