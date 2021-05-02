@@ -77,7 +77,7 @@ Complete example:
 </div>
 ```
 
-No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only default that is not arbitrary, and it's really easy to add a gap. We currently only support symmetrical gaps up to `50px` to keep the bundle size small, but you can easily add your own classes to extend the functionality. For example `.custom-gap-100 {row-gap: 60px; column-gap: min(20px, 8%)}`.
+No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only default that is not arbitrary, and it's really easy to add a gap. We currently only support symmetrical gaps up to `50px` to keep the bundle size small, but you can easily add your own classes to extend the functionality. For example `.custom-gap {row-gap: 60px; column-gap: min(20px, 8%)}`.
 
 **Note:** When the `tb-grid` parent is smaller than `column-gap * 12`, the `column-gap` will be squished together to prevent overflows. For example, a `column-gap` of `30px` becomes problematic when the `tb-grid` parent is `360px`. That's why the `tb-grid-gap-<px>` classes use `column-gap: min(<px>, 8%)`, to squish the column gutters when it gets too tight.
 
