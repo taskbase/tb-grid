@@ -25,7 +25,7 @@ However, there are also some things bootstrap didn't get right.
 
 ## 🤯 What is `tb-grid`?
 
-`tb-grid` is a reverse engineered bootstrap 12 column grid built with **modern css**. This means it's utilizing features such as css grid. Like that we can reverse engineer bootstrap's column system in less than 100 lines of scss, which translates into less than 500 lines of css (less than 1kb gzipped).
+`tb-grid` is a reverse engineered bootstrap 12 column grid built with **CSS grid**. Like that we can reverse engineer bootstrap's column system in less than 100 lines of scss, which translates into less than 500 lines of css (less than 1kb gzipped).
 
 ## 🚀 How can I install `tb-grid`?
 
