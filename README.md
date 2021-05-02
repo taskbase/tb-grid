@@ -21,16 +21,16 @@ Bootstrap's grid system is awesome. With very little code you can add responsive
 
 However, there are also some things bootstrap didn't get right.
 
-1. The classes aren't scoped or namespaced. Furthermore `.container` and `.row` aren't that exotic that there would be no accidental collisions.
-2. It requires too much nesting: `.container` > `.row` > `.col`. It would be great if we could drop the `.container`.
-3. At 50kb minified (only the grid system!), it's not exactly small
-4. The gutters / gaps need hacking with additional padding or `overflow: hidden`.
+1. It requires too much nesting: `.container` > `.row` > `.col`. It would be great if we could drop the `.container`.
+2. Changing gutters (aka. gaps) on a case-by-case level is a bit cumbersome.
+3. The classes aren't scoped or namespaced. Furthermore `.container` and `.row` aren't that exotic that there would be no accidental collisions.
+4. At 50kb minified (only the grid system!), it's not exactly small
 
 `tb-grid` addresses all those gripes with bootstrap and frankly with all other grid systems we know (foundation, skeleton, ...).
 
 ## 🤯 What is `tb-grid`?
 
-`tb-grid` is a reverse engineered bootstrap 12 column grid built with **CSS grid**. Like that we can reverse engineer bootstrap's column system in less than 100 lines of scss, which translates into less than 500 lines of css (less than 1kb gzipped). It also allows us to drop one level of nesting that was required in bootstrap, since css grid supports "gutters" (aka. gaps) out of the box. Finally we made sure that everything lives under the `tb-grid-` prefix, so you'd have to be really unlucky for someone to accidentally use a class declared by this library.
+`tb-grid` is a reverse engineered bootstrap 12 column grid built with **CSS grid**. Like that we can reverse engineer bootstrap's column system in less than 100 lines of scss, which translates into less than 500 lines of css (less than 1kb gzipped). It also allows us to drop one level of nesting that was required in bootstrap, since css grid supports gutters out of the box. Finally we made sure that everything lives under the `tb-grid-` prefix, so you'd have to be really unlucky for someone to accidentally use a class declared by this library.
 
 ## 🚀 How can I install `tb-grid`?
 
