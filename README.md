@@ -69,8 +69,7 @@ It is pretty similar to bootstrap, with the exception that it's simpler yet with
 </div>
 ```
 
-No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only default that is not arbitrary, and it's really easy to add a gap. Supported up to `50px`. We currently only support symmetrical gaps for simplicity, but you can easily add your own css to change that, for example: `.tb-grid.custom-gap-y-10 {row-gap: 5px;}`
-
+No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only default that is not arbitrary, and it's really easy to add a gap. We currently only support symmetrical gaps up `50px` to keep the bundle size small, but you can easily add your own classes to extend the functionality. For example `.custom-gap-100 {row-gap: 100px; column-gap: 20px}`.
 
 ## ✋ What limitations does `tb-grid` have?
 
