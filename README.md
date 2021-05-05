@@ -85,6 +85,23 @@ No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only defau
 
 - It doesn't support old browsers (IE): https://caniuse.com/?search=grid . 95% of people are using browsers that support CSS grid as of April 2021. It's up to you to decide whether this is sufficient for your project.
 
+## 🤨 Do you really need `tb-grid`?
+
+It is also fair to ask yourself whether you even want a 12 column grid system after all. It is really simple to add the grid on a per ocassion basis, something like this:
+
+```
+.dashboard {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  @media(min-width: $my-breakpoint-sm) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+```
+
+So you can easily use low level css to achieve the same thing and avoid introducing too much clutter into the html. Over the years the actual CSS grid API might also be more well known amongst devs than the "bootstrap API", which `tb-grid` is similar to. It even solves the problem of the squished gutters and might be computationally more efficient, even though I haven't tested if there's any notable difference.
+
 ## 💯 What's the status of the project?
 
 - The project is to be considered experimental and non-battle tested at this point
