@@ -87,7 +87,7 @@ No `tb-grid-gap-<px>` value means no gaps / gutters, since that's the only defau
 
 ## 🤨 Do you really need `tb-grid`?
 
-It is also fair to ask yourself whether you even want a 12 column grid system after all. It is really simple to add the grid on a per ocassion basis, something like this:
+It is also fair to ask yourself whether you even want a 12 column grid system after all. It is really simple to add the grid on a per occasion basis, something like this:
 
 ```
 .dashboard {
