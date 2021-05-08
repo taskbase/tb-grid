@@ -102,6 +102,17 @@ It is also fair to ask yourself whether you even want a 12 column grid system af
 
 You can easily use low level css to achieve the same thing and avoid introducing too much clutter into the html. Over the years the actual CSS grid API might also be more well known amongst devs than the "bootstrap API", which `tb-grid` builds upon. It even solves the problem of the squished gutters and might be computationally more efficient, even though I haven't tested if there's any actual difference.
 
+You can even achieve a cool responsive experience without media queries:
+```
+.car-grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+```
+
+Demo: https://jsfiddle.net/bersling/d3hjs5zv/3/
+
 ## 💯 What's the status of the project?
 
 - The project is to be considered experimental and non-battle tested at this point
