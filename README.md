@@ -12,7 +12,7 @@ _Lightweight (<1kb gzipped) 12 column grid system, built with css grid._
 Have a look at those examples:
 
 - Main Demo: https://jsfiddle.net/bersling/af07cw94/324/
-- Demo with Cars & Cards: https://jsfiddle.net/bersling/n2tqd85h/37/
+- Demo with Cars & Cards: https://jsfiddle.net/bersling/n2tqd85h/41/
 - Bootstrap example, where grid is replaced with `tb-grid`: https://codepen.io/bersling/pen/RwKzdgV (Original: https://codepen.io/WeeHorse/pen/PQydzW)
 
 Simply fork the demos if you want to play around with `tb-grid`.
