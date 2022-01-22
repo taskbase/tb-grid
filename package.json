@@ -1,6 +1,6 @@
 {
   "name": "tb-grid",
-  "version": "0.0.2",
+  "version": "0.0.3-beta.4",
   "description": "tb-grid is a super simple and lightweight 12 column responsive grid system utilizing css grid.",
   "main": "index.js",
   "files": [
@@ -12,7 +12,11 @@
     "tb-grid.css"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "sass tb-grid.scss tb-grid.css",
+    "sass-watch": "sass --watch .",
+    "publish-beta": "npm install && npm publish --tag beta",
+    "publish-latest": "npm install && npm publish"
   },
   "repository": {
     "type": "git",
@@ -41,5 +45,8 @@
   "bugs": {
     "url": "https://github.com/taskbase/tb-grid/issues"
   },
-  "homepage": "https://github.com/taskbase/tb-grid#readme"
+  "homepage": "https://github.com/taskbase/tb-grid#readme",
+  "devDependencies": {
+    "sass": "^1.49.0"
+  }
 }
