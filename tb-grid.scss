@@ -44,18 +44,6 @@ $tb-grid-breakpoints: (
           grid-column-start: span #{$i};
         }
       }
-      @for $i from 1 through 5 {
-        &.tb-grid-#{$breakpoint-name}-offset-#{$i} {
-          &::before {
-            content: "";
-            grid-column-start: span #{$i};
-          }
-          &::after {
-            content: "";
-            grid-column-start: span #{$i};
-          }
-        }
-      }
     }
   }
 }
