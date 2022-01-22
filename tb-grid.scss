@@ -45,7 +45,7 @@ $tb-grid-breakpoints: (
         }
       }
       @for $i from 1 through 5 {
-        .tb-grid-#{$breakpoint-name}-offset-#{$i} {
+        &.tb-grid-#{$breakpoint-name}-offset-#{$i} {
           &::before {
             grid-column-start: span #{$i};
           }
