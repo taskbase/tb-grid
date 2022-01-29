@@ -113,7 +113,7 @@ You can even achieve a cool responsive experience without media queries:
 
 Demo: https://jsfiddle.net/bersling/d3hjs5zv/3/
 
-However, to achieve some consistent layout across a page, the 12 column grid system is a really easy-to-use and powerful system. We've found it especially helpful on things like landing pages, where you often have different sections, jumbos etc. that should be aligned with one another but still responsive. So in our opinion, yes, tb-grid does make your life easier 🙂
+However, to achieve a consistent layout across a page, the 12 column grid system is a really easy-to-use and powerful tool. We've found it especially helpful on things like landing pages, where you often have different sections, jumbos etc. that should be aligned with one another but still responsive. So in our opinion, yes, tb-grid does make your life easier 🙂
 
 ## 💯 What's the status of the project?
 
